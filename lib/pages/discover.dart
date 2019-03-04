@@ -168,6 +168,7 @@ class Discover extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.grey,
       appBar: AppBar(
+        title: Text("Home"),
         backgroundColor: Colors.blueAccent,
       ),
       drawer: Drawer(child: getListView(context)),
